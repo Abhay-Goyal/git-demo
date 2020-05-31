@@ -1,0 +1,15 @@
+package consumercare;
+
+import org.testng.annotations.Test;
+
+public class FirstTest extends Driverstart {
+
+	
+	@Test
+	public void start() {
+		
+		driver= getDriver();
+		
+	}
+	
+}

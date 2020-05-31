@@ -1,0 +1,19 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class DriverInitialization {
+
+	public WebDriver driver;
+
+	public static void main(String[] args) {
+
+	}
+
+	public WebDriver driverInitialization() {
+		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
+		driver = new ChromeDriver();
+		return driver;
+	}
+
+}

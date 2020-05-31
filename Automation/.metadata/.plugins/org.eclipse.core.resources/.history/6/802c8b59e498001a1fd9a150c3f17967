@@ -1,0 +1,53 @@
+package test;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Iterator;
+
+import org.apache.poi.sl.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.junit.Test;
+
+public class excelTest {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+	}
+	
+	@Test
+	
+	
+	public void Test() throws IOException {
+		FileInputStream fis = new FileInputStream("");
+		XSSFWorkbook book = new XSSFWorkbook(fis);
+		
+		int x=book.getNumberOfSheets();
+		
+		for(int y = 0;y<x;y++) {
+			
+			if(book.getSheetName(y).equalsIgnoreCase("")) {
+				XSSFSheet s=book.getSheetAt(y);
+				
+				
+				Iterator<Row>rows=s.iterator();
+				Row firstrow=rows.next();
+				
+				Iterator<Cell>ce=firstrow.cellIterator();
+				
+				while(ce.hasNext()) {
+					Cell value=ce.next();
+					
+					if(value.getStringCellValue().equalsIgnoreCase("")) {
+						
+					}
+				}
+			}
+			
+		}
+		
+	}
+
+}

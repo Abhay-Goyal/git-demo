@@ -1,0 +1,50 @@
+package consumercare;
+
+import static org.testng.Assert.assertEquals;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+import resources.Driverstart;
+
+public class SecondTest extends Driverstart{
+
+	@AfterMethod()
+	public void closeBrowser()
+	{
+		
+		driver.close();
+	}
+	
+	@Test
+	public void getCourses() throws IOException {
+		
+		driver = getDriver();
+		
+		driver.get(p.getProperty("url"));
+		
+		HomePage hp = new HomePage(driver);
+		hp.Courses().click();
+		
+		
+		
+		String PageTitle= driver.getTitle();
+		
+		
+		//Assert.assertEquals("Featured Course", PageTitle);
+		
+		Assert.assertTrue(driver.findElement(By.xpath("//a[@href='https://www.rahulshettyacademy.com/#/consulting']")).isEnabled());
+		
+		
+		
+		
+		
+		
+	}
+}

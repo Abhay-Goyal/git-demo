@@ -1,0 +1,16 @@
+package practiceTest;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class Servertest {
+
+	static {
+		
+		DesiredCapabilities sc = new DesiredCapabilities();
+		sc.setPlatform(Platform.WINDOWS);
+		
+		
+	}
+	
+}

@@ -1,0 +1,5 @@
+10:02:05.290 [TestNG-test=Test-1] INFO  resources.Driverstart - Url is accessible
+10:02:12.845 [TestNG-test=Test-1] INFO  resources.Driverstart - username has been entered
+10:02:13.073 [TestNG-test=Test-1] INFO  resources.Driverstart - password has been entered
+10:02:16.043 [TestNG-test=Test-1] INFO  resources.Driverstart - Clicked on Login button
+10:02:16.231 [TestNG-test=Test-1] INFO  resources.Driverstart - Browser is closed

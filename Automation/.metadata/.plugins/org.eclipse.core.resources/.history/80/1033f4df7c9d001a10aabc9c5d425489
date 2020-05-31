@@ -1,0 +1,10 @@
+package PracticeTest.Restart;
+
+import org.apache.logging.log4j.LogManager;
+
+public class Alpha {
+
+	
+	private static Logger  log= LogManager.getLogger(Alpha.class.getName());
+	
+}

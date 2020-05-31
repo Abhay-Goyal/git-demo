@@ -1,0 +1,12 @@
+package PracticeTest.Restart;
+
+public class SecondTest {
+
+	
+	@Test
+	
+	public void secondTest() {
+		
+	}
+	
+}

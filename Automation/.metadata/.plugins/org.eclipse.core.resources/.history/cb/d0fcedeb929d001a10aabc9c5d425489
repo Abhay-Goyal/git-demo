@@ -1,0 +1,21 @@
+package PracticeTest.Restart;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Homepage {
+
+	WebDriver driver;
+	
+	public Homepage(WebDriver driver) {
+		driver=this.driver;
+	}
+	
+	By Login = By.xpath("");
+	
+	public void Login() {
+		
+		driver.findElement(Login).click();
+	}
+	
+}

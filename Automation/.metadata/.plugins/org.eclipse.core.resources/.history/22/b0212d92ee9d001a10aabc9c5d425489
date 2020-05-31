@@ -1,0 +1,16 @@
+package resources;
+
+import java.util.logging.LogManager;
+
+import org.apache.logging.log4j.Logger;
+
+public class Logs {
+
+	
+	public Logger log;
+	
+	public void getLog(Class name) {
+		LogManager.getLog()
+	}
+	
+}

@@ -1,0 +1,13 @@
+package practice;
+import org.openqa.selenium.WebDriver;
+
+import booking.*;
+public class Exceltest extends DriverInitialization {
+
+	public WebDriver driver;
+	@Test
+	public void getMe() {
+		pu= driverInitialization();
+	}
+}
+}

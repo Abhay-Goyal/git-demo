@@ -1,0 +1,30 @@
+package test;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class Airbnb extends DriverInitialization {
+
+	public WebDriver driver;
+
+	@Test
+
+	public void access() {
+
+		driver = driverInitialization();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.get("https://www.airbnb.co.in/");
+
+		// Login
+
+		driver.findElement(By.xpath("//a[@href='/login']")).click();
+
+		// SignUp
+
+	}
+
+}

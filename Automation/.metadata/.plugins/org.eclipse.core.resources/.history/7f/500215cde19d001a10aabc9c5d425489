@@ -1,0 +1,20 @@
+package consumercare;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import resources.Driverstart;
+
+public class SecondTest extends Driverstart{
+
+	
+	@Test
+	public void getCourses() throws IOException {
+		
+		driver = getDriver();
+		
+		driver.get("https://rahulshettyacademy.com/#/index");
+		
+	}
+}

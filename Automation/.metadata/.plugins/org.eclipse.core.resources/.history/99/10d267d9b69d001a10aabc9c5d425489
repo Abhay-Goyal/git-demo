@@ -1,0 +1,23 @@
+package consumercare;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+public class Driverstart {
+
+	
+	public WebDriver driver;
+	
+	public void getDriver() throws FileNotFoundException {
+		
+		Properties p = new Properties();
+		FileInputStream fis = new FileInputStream("C:\\Users\\abhay\\Desktop\\Automation Setup\\Automation\\ConsumerCare\\src\\main\\java\\consumercare\\value.properties");
+		p.load(fis);
+		
+	}
+	
+	
+}

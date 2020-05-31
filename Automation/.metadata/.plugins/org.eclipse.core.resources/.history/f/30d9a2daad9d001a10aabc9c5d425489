@@ -1,0 +1,7 @@
+package PracticeTest.Restart;
+
+public class Driverintitation {
+
+	public WebDriver driver;
+	
+}

@@ -1,0 +1,9 @@
+package PracticeTest.Restart;
+
+import org.openqa.selenium.WebDriver;
+
+public class Driverintitation {
+
+	public WebDriver driver;
+	
+}

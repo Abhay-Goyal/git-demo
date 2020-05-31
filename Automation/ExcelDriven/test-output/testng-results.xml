@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15318" started-at="2020-05-20T08:54:43Z" finished-at="2020-05-20T08:54:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15318" started-at="2020-05-20T08:54:43Z" finished-at="2020-05-20T08:54:59Z">
+      <class name="booking.Airbnb">
+        <test-method status="PASS" signature="access()[pri:0, instance:booking.Airbnb@2a5ca609]" name="access" duration-ms="15298" started-at="2020-05-20T14:24:43Z" finished-at="2020-05-20T14:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- access -->
+      </class> <!-- booking.Airbnb -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

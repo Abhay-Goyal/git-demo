@@ -1,0 +1,8 @@
+package resources;
+
+public class Logs {
+
+	
+	public Logger log;
+	
+}

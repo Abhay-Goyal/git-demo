@@ -1,0 +1,30 @@
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Spicejet {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome\\Application.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.amazon.com");
+		driver.manage().window().maximize();
+	
+		/*Actions a = new Actions(driver);
+		a.moveToElement(driver.findElement(By.id("nav-link-accountList"))).build().perform();
+		a.moveToElement(driver.findElement(By.xpath("//span[contains(text(),'Your Orders')]"))).click().build().perform();
+		
+		//driver.findElement(By.xpath("//span[contains(text(),'Your Orders')]")).sendKeys(Keys.chord(Keys.CONTROL,Keys.ENTER));*/
+		
+		
+	
+	}
+	
+}
