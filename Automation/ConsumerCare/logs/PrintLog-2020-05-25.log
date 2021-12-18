@@ -1,6 +1,0 @@
-10:01:47.729 [TestNG-test=Test-2] INFO  resources.Driverstart - Browser window has been closed
-10:01:51.469 [TestNG-test=Test-1] INFO  resources.Driverstart - username has been entered
-10:01:51.621 [TestNG-test=Test-1] INFO  resources.Driverstart - password has been entered
-10:01:55.037 [TestNG-test=Test-1] INFO  resources.Driverstart - Clicked on Login button
-10:01:59.436 [TestNG-test=Test-1] INFO  resources.Driverstart - Browser is closed
-10:02:02.914 [TestNG-test=Test-1] INFO  resources.Driverstart - Driver is initialized
