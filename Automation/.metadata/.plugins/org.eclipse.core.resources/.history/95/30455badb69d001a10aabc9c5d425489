@@ -1,8 +1,0 @@
-package consumercare;
-
-public class Driverstart {
-
-	
-	public WebDriver driver;
-	
-}
